@@ -6,7 +6,10 @@ int main() {
     int a, b;
     cin >> a >> b;
     int sum = a+b;
-    float avg = (double)sum/ 2;
+
+    float avg = (float)sum / 2;
+    cout << fixed;
+    cout.precision(1);
     cout << sum << " " << avg;
     return 0;
 }
