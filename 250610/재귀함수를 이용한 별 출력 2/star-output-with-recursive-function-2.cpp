@@ -7,7 +7,7 @@ int n;
 void printStars(int count) {
     if (count == 0) return;
     for (int i = 0; i < count; i++) {
-        cout << "*";
+        cout << "* ";
     }
     cout << endl;
 }
