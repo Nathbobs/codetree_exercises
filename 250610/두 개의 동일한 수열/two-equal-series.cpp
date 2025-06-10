@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    cout << (same ? "YES" : "NO") << "\n";
+    cout << (same ? "Yes" : "No") << "\n";
 
     return 0;
 }
