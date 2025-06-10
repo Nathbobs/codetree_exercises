@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int fibonacci(int n) {
+    if (n == 1 || n == 2)  // Base cases: 1st and 2nd Fibonacci numbers are 1
+        return 1;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+int main() {
+    cin >> N;
+    cout << fibonacci(N) << endl;
+    return 0;
+}
