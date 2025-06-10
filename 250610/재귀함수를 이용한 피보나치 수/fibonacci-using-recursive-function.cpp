@@ -7,9 +7,9 @@ int fibonacci(int n) {
         return 1;
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
-
+int N;
 int main() {
     cin >> N;
-    cout << fibonacci(n) << endl;
+    cout << fibonacci(N) << endl;
     return 0;
 }
